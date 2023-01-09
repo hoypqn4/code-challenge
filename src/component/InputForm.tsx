@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { addTodo } from '../redux'
-import { TodoItemList, TodoItemPreview } from '../interface/models'
+import { TodoItemPreview } from '../interface/models'
 import { RootState } from '../redux/store'
 
 const InputForm = () => { 

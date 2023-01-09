@@ -1,4 +1,4 @@
-import { useParams, Redirect, useHistory } from 'react-router-dom'
+import { useParams, useHistory } from 'react-router-dom'
 import { shallowEqual, useSelector} from 'react-redux'
 import { TodoItemList} from '../interface/models'
 
